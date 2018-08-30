@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertDialog.Droid", "AlertDialog.Droid\AlertDialog.Droid.csproj", "{FAB089B0-69AF-401E-9447-2CD06513E0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertDialog.Core", "AlertDialog.Core\AlertDialog.Core.csproj", "{0657B726-D8DE-44A2-9FD5-9DCD360D783F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB089B0-69AF-401E-9447-2CD06513E0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB089B0-69AF-401E-9447-2CD06513E0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB089B0-69AF-401E-9447-2CD06513E0C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FAB089B0-69AF-401E-9447-2CD06513E0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB089B0-69AF-401E-9447-2CD06513E0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB089B0-69AF-401E-9447-2CD06513E0C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0657B726-D8DE-44A2-9FD5-9DCD360D783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0657B726-D8DE-44A2-9FD5-9DCD360D783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0657B726-D8DE-44A2-9FD5-9DCD360D783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0657B726-D8DE-44A2-9FD5-9DCD360D783F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6A76749-A700-4911-A151-A3A16AD3C402}
+	EndGlobalSection
+EndGlobal
