@@ -7278,11 +7278,23 @@ namespace AlertDialog.Droid
 			// aapt resource value: 0x7f0a0011
 			public const int search_menu_title = 2131361809;
 			
-			// aapt resource value: 0x7f0a002c
-			public const int show_alert_error = 2131361836;
+			// aapt resource value: 0x7f0a002e
+			public const int show_alert_attention = 2131361838;
+			
+			// aapt resource value: 0x7f0a002f
+			public const int show_alert_decision = 2131361839;
+			
+			// aapt resource value: 0x7f0a0030
+			public const int show_alert_decision_triple = 2131361840;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int show_alert_error = 2131361837;
 			
 			// aapt resource value: 0x7f0a002b
-			public const int show_alert_success = 2131361835;
+			public const int show_alert_informative = 2131361835;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int show_alert_success = 2131361836;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int status_bar_notification_info_overflow = 2131361830;

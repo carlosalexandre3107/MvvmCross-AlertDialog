@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">AlertDialog.Droid</string>
-    <string name="title">Exemplos de alertas</string>
+  <string name="app_name">AlertDialog.Droid</string>
+  <string name="title">Exemplos de alertas</string>
+  
+  <string name="show_alert_informative">Exibir informativo</string>
   <string name="show_alert_success">Exibir sucesso</string>
   <string name="show_alert_error">Exibir erro</string>
+  <string name="show_alert_attention">Exibir atenção</string>
+  <string name="show_alert_decision">Exibir decisão</string>
+  <string name="show_alert_decision_triple">Exibir decisão tripla</string>
   
 </resources>

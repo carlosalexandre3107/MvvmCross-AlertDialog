@@ -31,6 +31,40 @@
 				android:orientation="vertical"
 				android:padding="8dp">
 
+				<!-- DISPLAY ALERT INFORMATION -->
+				<Button
+					android:theme="@style/ButtonBlue"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="16dp"
+					android:layout_gravity="center"
+					android:text="@string/show_alert_informative"
+					android:textAllCaps="true"
+					app:MvxBind="Click ShowAlertInformativeCommand" />
+
+				<!-- DISPLAY ALERT ERROR -->
+				<Button
+					android:theme="@style/ButtonRed"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="16dp"
+					android:layout_gravity="center"
+					android:text="@string/show_alert_error"
+					android:textAllCaps="true"
+					app:MvxBind="Click ShowAlertErrorCommand" />
+
+				<!-- DISPLAY ALERT ATTENTION -->
+				<Button
+					android:theme="@style/ButtonAmber"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="16dp"
+					android:layout_gravity="center"
+					android:text="@string/show_alert_attention"
+					android:textAllCaps="true"
+					app:MvxBind="Click ShowAlertAttentionCommand" />
+
+				<!-- DISPLAY SUCCESS ALERT -->
 				<Button
 					android:theme="@style/ButtonGreen"
 					android:layout_width="match_parent"
@@ -41,15 +75,27 @@
 					android:textAllCaps="true"
 					app:MvxBind="Click ShowAlertSuccessCommand" />
 
+				<!-- SHOW ALERT DECISION -->
 				<Button
-					android:theme="@style/ButtonRed"
+					android:theme="@style/ButtonBlue"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
 					android:layout_marginTop="16dp"
 					android:layout_gravity="center"
-					android:text="@string/show_alert_error"
+					android:text="@string/show_alert_decision"
 					android:textAllCaps="true"
-					app:MvxBind="Click ShowAlertErrorCommand" />
+					app:MvxBind="Click ShowAlertDecisionCommand" />
+
+				<!-- DISPLAY TRIPLE DECISION ALERT -->
+				<Button
+					android:theme="@style/ButtonBlue"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="16dp"
+					android:layout_gravity="center"
+					android:text="@string/show_alert_decision_triple"
+					android:textAllCaps="true"
+					app:MvxBind="Click ShowAlertTripleCommand" />
 
 			</LinearLayout>
 
